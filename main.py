@@ -34,7 +34,6 @@ if st.session_state.get('authenticated', False):  # Use get to avoid KeyError
     st.write("")
     with st.expander("Como Selecionamos Ativos"):
         st.write("explicacao...")
-    st.write("")
     with st.expander("Como Escolhemos Fundos"):
         st.write("explicacao...")
 else:
