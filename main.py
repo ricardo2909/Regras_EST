@@ -1,5 +1,5 @@
 import streamlit as st
-from auth import login, logout
+from auth import login
 
 
 # Função para verificar autenticação
