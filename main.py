@@ -21,3 +21,5 @@ if st.session_state['authenticated']:
 
     with st.expander("Como Escolhemos Fundos"):
         st.write("explicacao...")
+else:
+    login()
